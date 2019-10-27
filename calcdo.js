@@ -20,6 +20,13 @@ function onCalcBMIButtonClick() {
 	//BMIを表示。
 	bmiResult.textContent = bmi;
 
+	//アドバイスを取得
+	let advice = bmiObj.getAdvice();
+	//アドバイスを表示するspan要素を取得。
+	let adviceMessage = document.getElementById("adviceMessage");
+	//アドバイスを表示
+	adviceMessage.textContent = advice;
+
 	//結果を表示するp要素を取得。
 	let resultMessage = document.getElementById("resultMessage");
 

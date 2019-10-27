@@ -2,7 +2,11 @@
 <html lang="ja">
 	<head>
 		<meta charset="utf=8">
-		<title>jsAPP</title>
+		<title>BMI calculator</title>
+		<!-- fontawesome -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" >
+		<link rel="stylesheet" href="style.css">
+		<!-- css -->
 		<style type="text/css">
 			.redText {
 				color: red;
@@ -16,9 +20,19 @@
 		</style>
 	</head>
 	<body>
-		<h1 id="headTitle">計算</h1>
-		<p>
-			身長と体重を入力して計算ボタンをクリックしてください。
+		<h1 id="headTitle" style="color: #008b8b;"><i class="fas fa-heartbeat"></i>BMI計算アプリ</h1>
+		<p>BMI（ボディマス指数）とは...<br>
+			BMIとは、体重と身長の関係から算出される、ヒトの肥満度を表す体格指数である。
+		</p>
+		<h4 style="margin-top: 50px;">BMIは高くても低くても問題</h4>
+		<p style="font-size: 13px;">2015年の厚生労働省「国民健康・栄養調査」によると、日本人の成人男性の約3割、女性の約2割が肥満です。<br>
+			肥満だけでは病気とはいえませんが、合併症を伴う肥満症になりやすく、BMIの上昇とともに死亡リスクが上昇するとされています。<br>
+			また、BMIが高いだけが問題ではなく、低いBMIにも注意が必要です。<br>
+			食が細い高齢者の場合は、摂取エネルギーの不足から筋力が低下し、転倒や寝たきりの原因となる危険性があります。<br>
+			ぜひご自身のBMI値とアドバイスを確認し、健康管理の参考にしてください。
+		</p>
+		<p style="color: #191970; margin-top: 50px;">
+			さあ、あなたのBMI値を計算してみましょう。<br>身長と体重を入力して計算ボタンをクリックしてください。
 		</p>
 		<p>
 			<div>
